@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Rutina de Ejercicios Personalizada</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tu Rutina de Ejercicios Futurista</h1>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openDay(event, 'Day1')" id="defaultOpen">Día 1: Upper Push</button>
+            <button class="tablinks" onclick="openDay(event, 'Day2')">Día 2: Lower Body</button>
+            <button class="tablinks" onclick="openDay(event, 'Day3')">Día 3: Cardio & Core</button>
+            <button class="tablinks" onclick="openDay(event, 'Day4')">Día 4: Upper Pull</button>
+            <button class="tablinks" onclick="openDay(event, 'Day5')">Día 5: Full Body HIIT</button>
+            <button class="tablinks" onclick="openDay(event, 'WeightTracker')">Control de Peso</button>
+        </div>
+
+        <div id="Day1" class="tabcontent">
+            <h2>Día 1: Upper Body Push</h2>
+            <h3>Calentamiento (5-10 minutos):</h3>
+            <ul>
+                <li>Trote ligero en el lugar</li>
+                <li>Círculos con los brazos</li>
+                <li>Rotaciones de hombros</li>
+                <li>Flexiones (5-10 repeticiones)</li>
+            </ul>
+            <h3>Rutina Principal:</h3>
+            <div class="exercise">
+                <h4>1. Press de banca con barra - 3 series de 8-10 repeticiones</h4>
+                <pre>
+   Posición inicial          Posición final
+       _____                     _____
+      |     |                   |     |
+      | ___ |                   | ___ |
+   O--|-----|--O             O--|-----|--O
+  /|\                           |\___/|
+  / \                           |  |  |
+ ___________               ___________
+|___________|             |___________|
+                </pre>
+                <p>Acuéstate en el banco, agarra la barra un poco más ancho que el ancho de los hombros. Baja la barra hasta el pecho y luego empuja hacia arriba.</p>
+            </div>
+            <div class="exercise">
+                <h4>2. Press militar de pie - 3 series de 8-10 repeticiones</h4>
+                <pre>
+ Posición inicial      Posición final
+     O------O              |---|
+     |      |              |   |
+    /|\    /|\            _O---O_
+     |      |            / \   / \
+    / \    / \          |   | |   |
+                        |   | |   |
+                </pre>
+                <p>De pie, agarra la barra a nivel de los hombros y presiónala por encima de la cabeza. Baja controladamente de vuelta a los hombros.</p>
+            </div>
+            <div class="exercise">
+                <h4>3. Aperturas con mancuernas en banco inclinado - 3 series de 10-12 repeticiones</h4>
+                <pre>
+ Posición inicial      Posición final
+     \   /                  | |
+      \ /                   | |
+   O---O---O            O---O---O
+    \     /              \     /
+     \___/                \___/
+    /  |  \               /   \
+   /   |   \             /     \
+                </pre>
+                <p>En banco inclinado, baja las mancuernas hacia los lados, manteniendo un ligero doblez en los codos, y luego vuelve a subirlas.</p>
+            </div>
+            <div class="exercise">
+                <h4>4. Fondos de tríceps - 3 series de 10-15 repeticiones</h4>
+                <pre>
+ Posición inicial      Posición final
+   |---|   |---|        |---|   |---|
+     O       O            O       O
+    /|\     /|\          /|\     /|\
+   | | |   | | |        _| |_   _| |_
+    / \     / \        |  |  | |  |  |
+                       |  |  | |  |  |
+                </pre>
+                <p>Usa barras paralelas o el borde de un banco estable. Baja tu cuerpo flexionando los codos y luego empuja hacia arriba.</p>
+            </div>
+            <div class="exercise">
+                <h4>5. Flexiones - 3 series hasta el fallo</h4>
+                <pre>
+ Posición inicial      Posición final
+    O       O             O---O
+   /|\     /|\           /     \
+  | | |   | | |         |   |   |
+ /  |  \ /  |  \       /    |    \
+                      |     |     |
+                </pre>
+                <p>Comienza en posición de plancha, baja el pecho al suelo manteniendo el cuerpo recto, y luego empuja de vuelta a la posición inicial.</p>
+            </div>
+            <h3>Enfriamiento (5-10 minutos):</h3>
+            <p>Estiramientos ligeros para pecho, hombros y tríceps.</p>
+            <div class="check-container">
+                <span class="check-label">Completado:</span>
+                <div class="check-box" onclick="toggleCheck(this, 1)"></div>
+            </div>
+        </div>
+
+        <div id="Day2" class="tabcontent">
+            <h2>Día 2: Lower Body</h2>
+            <h3>Calentamiento (5-10 minutos):</h3>
+            <ul>
+                <li>Caminata rápida o jogging suave</li>
+                <li>Saltos de tijera</li>
+                <li>Sentadillas sin peso</li>
+                <li>Estiramiento dinámico de piernas</li>
+            </ul>
+            <h3>Rutina Principal:</h3>
+            <div class="exercise">
+                <h4>1. Sentadillas con barra - 4 series de 8-10 repeticiones</h4>
+                <pre>
+ Posición inicial      Posición final
+    |-----|              |-----|
+      \ /                  \ /
+     O-O-O                O-O-O
+      |                    |
+     /|\                  / \
+    | | |                |   |
+   /  |  \              /     \
+  |   |   |            |       |
+                </pre>
+                <p>Coloca la barra en los trapecios, baja flexionando rodillas y caderas, luego empuja hacia arriba.</p>
+            </div>
+            <div class="exercise">
+                <h4>2. Peso muerto - 3 series de 8-10 repeticiones</h4>
+                <pre>
+ Posición inicial      Posición final
+       O                 |-----|
+      /|\                  O
+     | | |                /|\
+    /  |  \              | | |
+   |   |   |            /  |  \
+  |-------|           |    |    |
+                </pre>
+                <p>Con la barra en el suelo, flexiona caderas y rodillas para agarrarla, luego levanta extendiendo piernas y espalda.</p>
+            </div>
+            <div class="exercise">
+                <h4>3. Lunges con mancuernas - 3 series de 12 repeticiones por pierna</h4>
+                <pre>
+ Posición inicial      Posición final
+     O   O               O   O
+     /|\ /|\             /|\_/|\
+   | | | | |           | |   | |
+  /  | |  | \         /  |___|  \
+ |   | |  |  |       |   |   |   |
+     | |  |              |   |
+                </pre>
+                <p>Da un paso adelante, baja la rodilla trasera cerca del suelo, luego empuja de vuelta a la posición inicial.</p>
+            </div>
+            <div class="exercise">
+                <h4>4. Prensa de piernas - 3 series de 12-15 repeticiones</h4>
+                <pre>
+ Posición inicial      Posición final
+    |_______|            |_______|
+   /    O    \          /         \
+  |    /|\    |        |     O     |
+  |   | | |   |        |    /|\    |
+  |  /  |  \  |        |   | | |   |
+  | |   |   | |        |  /  |  \  |
+   \|___|___| /         \|___|___|/
+                </pre>
+                <p>En la máquina, empuja la plataforma con los pies, extendiendo las piernas, luego regresa controladamente.</p>
+            </div>
+            <div class="exercise">
+                <h4>5. Elevaciones de pantorrilla - 3 series de 15-20 repeticiones</h4>
+                <pre>
+ Posición inicial      Posición final
+      | |                  O O
+      | |                 /|/|\
+      O O                / | | \
+     /|\|\               | | | |
+    | | | |              | | | |
+   /  | |  \             | | | |
+  |   | |   |            | | | |
+      ___                  ___
+                </pre>
+                <p>De pie con las puntas de los pies en un escalón, levanta los talones lo más alto posible, luego baja.</p>
+            </div>
+            <h3>Enfriamiento (5-10 minutos):</h3>
+            <p>Estiramientos estáticos para cuádriceps, isquiotibiales, glúteos y pantorrillas.</p>
+            <div class="check-container">
+                <span class="check-label">Completado:</span>
+                <div class="check-box" onclick="toggleCheck(this, 2)"></div>
+            </div>
+        </div>
+
+        <div id="Day3" class="tabcontent">
+            <h2>Día 3: Cardio & Core</h2>
+            <h3>Calentamiento (5 minutos):</h3>
+            <ul>
+                <li>Marcha en el lugar</li>
+                <li>Rotaciones de tronco</li>
+                <li>Jumping jacks</li>
+            </ul>
+            <h3>Rutina de Cardio (30 minutos):</h3>
+            <div class="exercise">
+                <h4>Intervalo de alta intensidad (HIIT) - 30 segundos de cada ejercicio, 15 segundos de descanso, 3 rondas</h4>
+                <ol>
+                    <li>Burpees</li>
+                    <pre>
+   O        _O_       /\         O
+  /|\  ->  _/ \_  ->  ||  ->    /|\
+  / \                / \       / \
+                    </pre>
+                    <li>Mountain climbers</li>
+                    <pre>
+  O                 O
+ /|\ ____    ->    /|\_____
+ / \                 \
+                    </pre>
+                    <li>Saltos de cuerda</li>
+                    <pre>
+    |   O   |         |  \O/  |
+    |  /|\  |    ->   |   |   |
+    |_/_\_ _|         |_ / \ _|
+                    </pre>
+                    <li>Sprints en el lugar</li>
+                    <pre>
+   O   ->   \O\   ->   |O|   ->   /O/
+  /|\       |\        /|\        /|
+  / \       / >      > <        < \
+                    </pre>
+                    <li>Jumping lunges</li>
+                    <pre>
+    O           \O     O/
+   /|   ->      |     |   ->
+  | |          < \   / >
+ /  |           | | | |
+                    </pre>
+                </ol>
+            </div>
+            <h3>Rutina de Core (15 minutos):</h3>
+            <div class="exercise">
+                <h4>1. Plancha - 3 series de 30-60 segundos</h4>
+                <pre>
+   O
+  /|\____
+ / \
+                </pre>
+                <p>Mantén el cuerpo recto, apoyado en antebrazos y puntas de los pies.</p>
+            </div>
+            <div class="exercise">
+                <h4>2. Crunch bicicleta - 3 series de 20 repeticiones</h4>
+                <pre>
+      O          O
+    _/|\_  ->  _/|\
+   |  |       | /
+   | / \      |  \
+                </pre>
+                <p>Acostado, lleva el codo hacia la rodilla opuesta alternando lados.</p>
+            </div>
+            <div class="exercise">
+                <h4>3. Russian twists - 3 series de 20 repeticiones</h4>
+                <pre>
+   \O/      O       /O\
+    |   ->  |  ->   |
+   / \     / \     / \
+                </pre>
+                <p>Sentado con piernas elevadas, gira el torso de lado a lado.</p>
+            </div>
+            <h3>Enfriamiento (5-10 minutos):</h3>
+            <p>Estiramientos suaves para todo el cuerpo.</p>
+            <div class="check-container">
+                <span class="check-label">Completado:</span>
+                <div class="check-box" onclick="toggleCheck(this, 3)"></div>
+            </div>
+        </div>
+
+        <div id="Day4" class="tabcontent">
+            <h2>Día 4: Upper Body Pull</h2>
+            <h3>Calentamiento (5-10 minutos):</h3>
+            <ul>
+                <li>Rotaciones de brazos</li>
+                <li>Elevaciones de hombros</li>
+                <li>Flexiones de pared</li>
+                <li>Tracciones asistidas o negativas</li>
+            </ul>
+            <h3>Rutina Principal:</h3>
+            <div class="exercise">
+                <h4>1. Tracciones o pull-ups - 3 series hasta el fallo (o asistidas si es necesario)</h4>
+                <pre>
+  |---|---|---|       |---|---|---|
+     \  O  /             _\O/_
+      \/|\\/     ->       |
+       / \                |
+                         / \
+                </pre>
+                <p>Cuelga de la barra y tira de tu cuerpo hacia arriba hasta que tu barbilla esté por encima de la barra.</p>
+            </div>
+            <div class="exercise">
+                <h4>2. Remo con barra - 3 series de 8-10 repeticiones</h4>
+                <pre>
+      O                O
+     /|\    ->        /|\_____
+    / | \            / |
+   /  |  \          /  |
+ ==========================================
+                </pre>
+                <p>Inclínate hacia adelante con la barra colgando, tira la barra hacia tu abdomen inferior.</p>
+            </div>
+            <div class="exercise">
+                <h4>3. Face pulls - 3 series de 12-15 repeticiones</h4>
+                <pre>
+    O        O---O      \O/
+   /|\  ->  /     \  ->  |
+   / \     |   |   |    / \
+          /    |    \
+                </pre>
+                <p>Con una polea a la altura de la cara, tira de la cuerda hacia tu frente, separando los brazos al final.</p>
+            </div>
+            <div class="exercise">
+                <h4>4. Curl de bíceps con barra - 3 series de 10-12 repeticiones</h4>
+                <pre>
+     O             O
+    /|\    ->     /|\
+    _|_           |O|
+   |   |         | | |
+   |___|         |___|
+    / \           / \
+                </pre>
+                <p>De pie, levanta la barra hacia los hombros flexionando los codos, luego baja controladamente.</p>
+            </div>
+            <div class="exercise">
+                <h4>5. Remo unilateral con mancuerna - 3 series de 10 repeticiones por brazo</h4>
+                <pre>
+    O               O
+   /|    ->        /|\_
+  | |             | | 
+ /__|\\           /__|\\
+    |               |
+                </pre>
+                <p>Con una mano y rodilla sobre un banco, tira de la mancuerna hacia tu cadera.</p>
+            </div>
+            <h3>Enfriamiento (5-10 minutos):</h3>
+            <p>Estiramientos para espalda, bíceps y hombros.</p>
+            <div class="check-container">
+                <span class="check-label">Completado:</span>
+                <div class="check-box" onclick="toggleCheck(this, 4)"></div>
+            </div>
+        </div>
+
+        <div id="Day5" class="tabcontent">
+            <h2>Día 5: Full Body & HIIT</h2>
+            <h3>Calentamiento (5-10 minutos):</h3>
+            <ul>
+                <li>Saltos de cuerda</li>
+                <li>Jumping jacks</li>
+                <li>Burpees suaves</li>
+                <li>Rotaciones de tronco</li>
+            </ul>
+            <h3>Rutina Principal (Circuito HIIT - 4 rondas, 40 segundos de trabajo, 20 segundos de descanso):</h3>
+            <div class="exercise">
+                <h4>1. Burpees con flexiones</h4>
+                <pre>
+ O    _O_    /\     O     O---O
+/|\  _/ \_   ||    /|\     \   \
+/ \         / \   / \  ->   \___\
+                </pre>
+                <p>Realiza un burpee estándar, añadiendo una flexión cuando estés en el suelo.</p>
+            </div>
+            <div class="exercise">
+                <h4>2. Sentadillas con salto</h4>
+                <pre>
+ O        O      _O_
+/|\  ->  / \  ->  |
+/ \     |   |    / \
+       /     \
+                </pre>
+                <p>Haz una sentadilla profunda y salta explosivamente al subir.</p>
+            </div>
+            <div class="exercise">
+                <h4>3. Mountain climbers</h4>
+                <pre>
+ O           O          O
+/|\_____    /|\_____   /|\_____
+ \           \        / 
+                </pre>
+                <p>En posición de plancha, alterna llevando las rodillas hacia el pecho rápidamente.</p>
+            </div>
+            <div class="exercise">
+                <h4>4. Peso muerto con mancuernas y remo</h4>
+                <pre>
+   O              O             O
+  /|\    ->      /|\    ->     /|\__
+ | | |          | | |         | | |
+/  |  \        /__|__\       /  |  \
+   |              |             |
+                </pre>
+                <p>Realiza un peso muerto y añade un remo al final del movimiento.</p>
+            </div>
+            <div class="exercise">
+                <h4>5. Plancha con toques de hombro</h4>
+                <pre>
+   O              O              O
+  /|\____    ->  /|\_O__    ->  /|\____
+ / \            / \            / \
+                </pre>
+                <p>En posición de plancha, toca tu hombro opuesto con cada mano alternativamente.</p>
+            </div>
+            <div class="exercise">
+                <h4>6. Saltos laterales</h4>
+                <pre>
+    O      _O_      O
+   /|\  ->  |  ->  /|\
+   / \     / \    / \
+  |   |            |   |
+                </pre>
+                <p>Salta de lado a lado, aterrizando suavemente y cambiando de dirección rápidamente.</p>
+            </div>
+            <h3>Rutina de Core (3 rondas):</h3>
+            <div class="exercise">
+                <h4>1. Crunches - 20 repeticiones</h4>
+                <h4>2. Russian twists - 30 segundos</h4>
+                <h4>3. Plancha - 45 segundos</h4>
+            </div>
+            <h3>Enfriamiento (5-10 minutos):</h3>
+            <p>Estiramientos suaves para todo el cuerpo, enfocándote en las áreas más trabajadas.</p>
+            <div class="check-container">
+                <span class="check-label">Completado:</span>
+                <div class="check-box" onclick="toggleCheck(this, 5)"></div>
+            </div>
+        </div>
+
+        <div id="WeightTracker" class="tabcontent">
+            <h2>Control de Peso Semanal</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semana</th>
+                        <th>Peso Objetivo (kg)</th>
+                        <th>Peso Actual (kg)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Semana 1</td>
+                        <td>-0.5 a -1</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(1, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 2</td>
+                        <td>-1 a -2</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(2, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 3</td>
+                        <td>-1.5 a -3</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(3, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 4</td>
+                        <td>-2 a -4</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(4, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 5</td>
+                        <td>-2.5 a -5</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(5, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 6</td>
+                        <td>-3 a -6</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(6, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 7</td>
+                        <td>-3.5 a -7</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(7, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 8</td>
+                        <td>-4 a -8</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(8, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 9</td>
+                        <td>-4.5 a -9</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(9, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 10</td>
+                        <td>-5 a -10</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(10, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 11</td>
+                        <td>-5.5 a -11</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(11, this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td>Semana 12</td>
+                        <td>-6 a -12</td>
+                        <td><input type="number" step="0.1" onchange="saveWeight(12, this.value)"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
